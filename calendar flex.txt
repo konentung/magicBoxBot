@@ -1,0 +1,339 @@
+{
+  "type": "bubble",
+  "size": "giga",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "日",
+            "align": "center"
+          },
+          {
+            "type": "text",
+            "text": "一",
+            "align": "center"
+          },
+          {
+            "type": "text",
+            "text": "二",
+            "align": "center"
+          },
+          {
+            "type": "text",
+            "text": "三",
+            "align": "center"
+          },
+          {
+            "type": "text",
+            "text": "四",
+            "align": "center"
+          },
+          {
+            "type": "text",
+            "text": "五",
+            "align": "center"
+          },
+          {
+            "type": "text",
+            "text": "六",
+            "align": "center"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "image",
+            "url": {{cover_url}},
+            "margin": "xs",
+            "aspectMode": "cover"
+          }
+        ]
+      }
+    ]
+  }
+}
