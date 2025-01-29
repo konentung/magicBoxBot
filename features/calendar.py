@@ -2,6 +2,7 @@ from linebot.v3.models import *
 from linebot.v3.messaging import *
 from linebot_helper import LineBotHelper, QuickReplyHelper
 import json
+import mongodb
 import os
 
 def create_month_quick_reply(event):
@@ -379,54 +380,3 @@ def get_datetime_quick_reply(event):
     quick_reply = QuickReplyHelper.create_quick_reply(quick_reply_data=datetime_quick_reply)
     
     return TextMessage(text="請選擇功能：", quick_reply=quick_reply)
-
-def handle_datetime(datetime):
-    datetime = datetime.split("T")
-    date = datetime[0]
-    time = datetime[1]
-    return date, time
-
-# 記錄檔案路徑
-RECORD_FILE = "user_calendar_records.json"
-
-# 初始化記錄檔
-def initialize_record_file():
-    if not os.path.exists(RECORD_FILE):
-        with open(RECORD_FILE, "w") as file:
-            json.dump({}, file)  # 初始化為空字典
-
-# 讀取記錄檔
-def read_records():
-    try:
-        with open(RECORD_FILE, "r") as file:
-            return json.load(file)
-    except json.JSONDecodeError as e:
-        print(f"JSON 文件損壞: {e}")
-        write_records({})  # 清空並重新初始化
-        return {}
-
-# 寫入記錄檔
-def write_records(data):
-    with open(RECORD_FILE, "w") as file:
-        json.dump(data, file, ensure_ascii=False, indent=4)
-
-# 更新用戶時間和內容記錄
-def update_user_record(user_id, selected_time, user_input):
-    initialize_record_file()
-    records = read_records()
-
-    # 初始化用戶記錄
-    if user_id not in records:
-        records[user_id] = {"stage": "calendar", "time": None, "input": None}
-    
-    # 更新時間和內容
-    records[user_id]["time"] = selected_time
-    records[user_id]["input"] = user_input
-    write_records(records)
-
-    print(f"記錄時間與內容: 用戶 {user_id} 選擇了時間 {selected_time}，並輸入了內容：{user_input}")
-
-# 查詢用戶記錄
-def get_user_record(user_id):
-    records = read_records()
-    return records.get(user_id, None)

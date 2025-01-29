@@ -130,3 +130,12 @@ class RichMenuHelper:
         except Exception as e:
             print(f"建立 Rich Menu 時發生錯誤：{e}")
             return None
+
+class DatetimeHelper:
+    @staticmethod
+    def handle_datetime(datetime):
+        datetime = datetime.split("T")
+        date = datetime[0]
+        time = datetime[1]
+        return date, time
+        
