@@ -1,69 +1,47 @@
 # MagicBoxBot
 
-MagicBoxBot 是一個 LINEBot，旨在為使用者帶來樂趣和實用功能。這個機器人包括各種小遊戲和功能，如 1A2B、猜拳、行事曆紀錄和 AI 問答。不管你是想玩個小遊戲打發時間，還是需要快速的 AI 助手，MagicBoxBot 都能滿足你的需求！
+MagicBoxBot is a LINEBot designed to bring fun and utility to its users. This bot includes a variety of small games and features like 1A2B, paper scissosr stone, calendar recording, and magic box AI. Whether you're looking for a fun game to pass the time or need a quick AI assistant, MagicBoxBot has got you covered!
 
-## 功能：
-- **1A2B 遊戲**：一個帶有回饋的數字猜測遊戲，適合喜歡邏輯謎題的人。
-- **猜拳遊戲**：經典的猜拳遊戲，可以和機器人來一場對決。
-- **行事曆紀錄**：使用這個機器人的行事曆功能，輕鬆記錄重要的日期、提醒事項和事件。
-- **AI 問答**：向機器人提問任何問題，它會使用內建的 AI 技術提供智慧的回答。
+## Features:
+- **1A2B Game**: Start the game by typing "1A2B" to the bot. The bot will generate a random number, and you need to guess it.
+- **Rock-Paper-Scissors**: Type "rock", "paper", or "scissors" to play against the bot.
+- **Calendar Record**: Use the "add event" command followed by the event details to save reminders or events.
+- **AI Q&A**: Simply type any question, and the bot will respond with an intelligent answer.
 
-## 使用方法：
+## How to Use:
 
-### 添加 MagicBoxBot:
-你可以透過掃描下面的 QR 碼將 MagicBoxBot 加入你的 LINE 好友列表。一旦添加，你可以直接在聊天中使用所有可用的功能！
+### Add MagicBoxBot:
+You can add MagicBoxBot to your LINE friends list by scanning the QR code below. Once added, you can start using all of the available features directly in your chat!
+![544xkvdn](https://github.com/user-attachments/assets/c4877483-03e7-4e10-bbb4-6c27d3bf2fe7)
 
-![QR Code](https://your-link-to-qr-code.com)  <!-- 請記得將此處的連結替換為實際的 QR 碼連結 -->
+![QR Code](https://line.me/R/ti/p/@544xkvdn)  <!-- Remember to replace this with the actual QR code link -->
 
-### 執行機器人：
-MagicBoxBot 由 LINE Messaging API 驅動，並託管於雲端伺服器上。設定步驟如下：
+## Install On Your Local
 
-1. 將此儲存庫克隆到你的本地機器或伺服器：
+### Running the Bot:
+MagicBoxBot is powered by LINE Messaging API and hosted on a cloud server. To set it up:
+
+1. Clone this repository to your local machine or server.
     ```bash
-    git clone https://github.com/your-username/MagicBoxBot.git
+    git clone https://github.com/konentung/MagicBoxBot.git
     cd MagicBoxBot
     ```
 
-2. 安裝所需的依賴項：
+2. Install the required dependencies:
     ```bash
     pip install -r requirements.txt
     ```
 
-3. 設定你的 LINE Messaging API 憑證。你需要創建一個 LINE Developers 帳號並獲得你的頻道 API 憑證（頻道密鑰和頻道存取令牌）。
+3. Set up your LINE Messaging API credentials. You will need to create a LINE Developers account and get your channel's API credentials (Channel Secret and Channel Access Token).
 
-4. 通過在 `.env` 文件中設定憑證的環境變數來配置機器人。
+4. Set up Ngrok for your computer to be a server link to line platform
 
-5. 使用以下命令運行機器人：
+5. Configure the bot by setting up the environment variables for the credentials in a `.env` file.(need mongodb_url and openai_api_key)
+
+6. Run the bot with:
     ```bash
     python app.py
     ```
 
-## 指令：
-- **1A2B 遊戲**：通過向機器人發送 "1A2B" 開始遊戲。機器人會生成一個隨機數字，你需要猜出它。
-- **猜拳遊戲**：發送 "rock"、"paper" 或 "scissors" 與機器人進行對戰。
-- **行事曆紀錄**：使用 "add event" 指令，並加上事件詳情來保存提醒事項或事件。
-- **AI 問答**：只需輸入任何問題，機器人就會給出智慧的回答。
-
-## 安裝：
-1. 克隆儲存庫：
-    ```bash
-    git clone https://github.com/your-username/MagicBoxBot.git
-    cd MagicBoxBot
-    ```
-
-2. 安裝依賴項：
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. 設定環境變數：
-    - LINE_CHANNEL_SECRET
-    - LINE_CHANNEL_ACCESS_TOKEN
-
-4. 運行機器人：
-    ```bash
-    python app.py
-    ```
-
-## 授權：
-此專案是開源的，並且以 MIT 授權條款發佈。
+## License:
+This project is open source and available under the MIT License.
