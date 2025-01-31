@@ -13,8 +13,7 @@ MagicBoxBot is a LINEBot designed to bring fun and utility to its users. This bo
 ### Add MagicBoxBot:
 You can add MagicBoxBot to your LINE friends list by scanning the QR code below. Once added, you can start using all of the available features directly in your chat!
 ![544xkvdn](https://github.com/user-attachments/assets/c4877483-03e7-4e10-bbb4-6c27d3bf2fe7)
-
-![QR Code](https://line.me/R/ti/p/@544xkvdn)  <!-- Remember to replace this with the actual QR code link -->
+Link：https://line.me/R/ti/p/@544xkvdn
 
 ## Install On Your Local
 
