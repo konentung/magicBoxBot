@@ -44,6 +44,3 @@ MagicBoxBot is powered by LINE Messaging API and hosted on a cloud server. To se
     ```bash
     python app.py
     ```
-
-## License:
-This project is open source and available under the MIT License.
